@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <header class="nav-bar">
+        <nav>
+            <p class="logo"> LUMIÉ </p>
+            <ul>
+                <li> <a href="index.html" > Home </a> </li> 
+                <li> <a href="contact.html">Contact</a> </li>
+                <li> <a href="all.html"> Shop  </a> </li>
+                <li> <a href="collection.html"> New  </a> </li>
+            </ul>
+            <div class="nav-icons">
+                <a href="login.html"><img src="icons\magnifier (1).png"></a> 
+                <a href="login.html"><img src="icons\globe.png"></a>
+                <a href="login.html"><img src="icons\user.png"></a>
+    
+            </div>
+        </nav>
+    </header>
+
+    <section class="user-sec">
+        <p class="create">Create An Account</p>
+    
+        <form action="form.php" method="post" class="reg-form">
+            <input class="reg-input" name="name" type="text" placeholder="Write Your Name" required>
+
+            <input class="reg-input" name="email"  type="email" placeholder="Write Your E-mail Address " required>
+            
+            
+            <select name="country" class="select">
+                <option value="" selected disabled hidden>Enter Your Country</option>
+                <option value="eg"> EG +20 (Egypt)</option>
+                <option value="qa"> QA +974 (Qatar)</option>
+                <option value="sa"> SA +966 (Saudi Arabia)</option>
+                <option value="ae"> AE +971 (United Arab Emirates)</option>
+                <option value="kw"> KW +965 (Kuwait)</option>
+                <option value="om"> OM +968 (Oman)</option>
+                <option value="others"> others</option>
+            </select>
+
+            <input class="reg-input" name="number" type="tel" placeholder=" Phone Number" required>
+            
+            <label for="birth">Birth-Date</label>
+            <input class="reg-input" name="birth" type="date" id="birth"  required>
+            
+            <select name="gender" class="select">
+                <option value="" selected disabled hidden>Select Gender</option>
+                <option value="male">Male</option>
+                <option value="fem">Female</option>
+            </select>
+
+            <input class="reg-input" name="password" type="password" placeholder="password" required>
+
+            <input type="submit" id="reg-submit">
+        </form>
+        
+    </section>
+
+
+    <footer>
+        <p  class="logo"> LUMIÉ </p>
+        <input type="email" placeholder="Write Your Email" class="email" >
+        <input type="submit"  id="sub-btn" value="Subscribe">
+        <p> Timeless Pieces, Made For YOU</p>
+        <section class="contact">
+            <div class="contact-icon">
+            <img src="icons\phone (1).png" >
+            <p>Phone: +20 123 456 7890</p>
+            <img src="icons\email.png" >
+            <p> Email: hello@LUMIÉ.com</p>
+            <img src="icons\help-web-button.png" >
+            <p> Help Center: help.LUMIÉfashion.com</p>
+        </div>
+        <div class="social-icon">
+            <img src="icons\face (2).jpeg" >
+            <img src="icons\pin (2).jpeg" >
+            <img src="icons\twitter (2).jpeg" >
+            <img src="icons\whats (2).jpeg" >
+            <img src="icons\insta (2).jpeg" >
+        </div>
+        </section>
+        
+        <p> PRIVACY POLICY | TERMS</p>
+        <p>  © 2026 Your LUMIÉ . All Rights Reserved.</p>
+        
+    </footer> 
+</body>
+</html>
